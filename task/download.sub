@@ -1,0 +1,15 @@
+universe = vanilla
+
+executable = /usr/bin/python3
+arguments  = /home/yuchen.liu/deepclean/task/download.py
+
+log    = /home/yuchen.liu/deepclean/logs/download_$(Cluster).log
+output = /home/yuchen.liu/deepclean/logs/download_$(Cluster).out
+error  = /home/yuchen.liu/deepclean/logs/download_$(Cluster).err
+
+request_cpus   = 1
+request_memory = 6GB
+request_disk   = 8GB
+
+
+queue
